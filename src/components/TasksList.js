@@ -13,7 +13,10 @@ function TasksList() {
   return (
     <div className="w-4/6">
       <header className="flex justify-between items-center py-4">
-        <h1>Tasks ({tasks.length})</h1>
+        <div>
+        <h1>Welcome to My Task Notes</h1>
+        <h2>Uncompleted ({tasks.length})</h2>
+        </div>
 
         <Link
           to="/create-task"
